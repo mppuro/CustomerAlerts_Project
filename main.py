@@ -1,13 +1,14 @@
 import smtplib
-from email.mime.text import MIMEText
+from email.mime.text import MIMEText  # importes modules required to send email
 
-subject = "Hello mehul"
+subject = "Hello mehul"  # arguments defined
 body = "Ujbjkbjkb nb jbkj"
 sender = "mehulpurohit000@gmail.com"
 recipients = ["mehulpurohit23@gmail.com"]
 password = "rixicyjmafejyfbi"
 
 
+# function to send email
 def send_email(subject, body, sender, recipients, password):
     msg = MIMEText(body)
     msg['Subject'] = subject
@@ -20,4 +21,5 @@ def send_email(subject, body, sender, recipients, password):
     print("Message sent!")
 
 
+# function call takes four parameter and pass to above function
 send_email(subject, body, sender, recipients, password)
