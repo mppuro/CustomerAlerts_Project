@@ -2,7 +2,7 @@ import smtplib
 from email.mime.text import MIMEText  # importes modules required to send email
 
 subject = "Hello mehul"  # arguments defined
-body = "Ujbjkbjkb nb jbkj"
+body = "Please see details"
 sender = "mehulpurohit000@gmail.com"
 recipients = ["mehulpurohit23@gmail.com"]
 password = "rixicyjmafejyfbi"
