@@ -6,5 +6,5 @@ Python 3
 smptlib library
 
 ## Method
-smtplib library to send an email using a Gmail account 
-Sent email function takes required parameter
+smtplib library to send an email using a gmail account 
+Sent email function takes required parameter 
